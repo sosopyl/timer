@@ -180,3 +180,36 @@
 //         clearInterval(timerId)
 //     }
 // }, 1000);
+
+//314
+// let elem = document.querySelector('#elem');
+
+// elem.addEventListener('click', function() {
+//     let self = this
+// 	setInterval(function() {
+// 		self.value = Number(self.value) + 1;
+// 	}, 1000);
+// });
+
+//315
+
+// let elem = document.querySelector('#elem');
+
+// elem.addEventListener('click', function() {
+//     let self = this
+// 	setInterval(function() {
+// 		self.value--;
+// 	}, 1000);
+// });
+
+//Практика на таймеры и работу с DOM в JavaScript
+
+//1
+// let elem = document.querySelector('input')
+// let p = document.querySelector('p')
+
+// elem.addEventListener('click', function(){
+//     setInterval(function(){
+//         p.textContent++
+//     }, 1000)
+//  })
