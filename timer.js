@@ -213,3 +213,102 @@
 //         p.textContent++
 //     }, 1000)
 //  })
+
+//2
+
+// let btn = document.querySelector('input')
+// let p = document.querySelector('p')
+
+// btn.addEventListener('click', function(){
+//     let timerId = setInterval(function(){
+//         p.textContent--
+//         if(p.textContent <= 0){
+//             clearInterval(timerId)
+//         }
+//     }, 1000)
+
+// })
+
+//3
+
+// let elem = document.querySelector('input')
+// elem.addEventListener('blur', function(){
+//     setInterval(function(){
+//         elem.value = +elem.value * +elem.value
+//     }, 1000)
+// })
+
+//4
+// let elem = document.querySelector('input')
+
+// elem.addEventListener('click', function(){
+//     let timerId = setInterval(function(){
+//         elem.value--
+//         if(elem.value <= 0){
+//             clearInterval(timerId)
+//         }
+//     }, 1000)
+
+// })
+
+//5
+// let btn = document.querySelector('#btn')
+// let p = document.querySelector('p')
+// let elem = document.querySelector('#elem')
+
+// btn.addEventListener('click', function(){
+//     p.textContent = +elem.value
+//     let timerId = setInterval(function(){
+//         p.textContent--
+//         if(p.textContent <= 0){
+//             clearInterval(timerId)
+//         }
+//     }, 1000)
+// })
+
+//6
+// let btn1 = document.querySelector('#btn1')
+// let btn2 = document.querySelector('#btn2')
+// let p = document.querySelector('p')
+// let timerId
+
+// btn1.addEventListener('click', function(){
+//     timerId = setInterval(function(){
+//         +p.textContent++
+//     }, 1000)
+// })
+
+// btn2.addEventListener('click', function(){
+//     clearInterval(timerId)
+// })
+
+//7
+// let elem = document.querySelector('p')
+// elem.style.color="red";
+
+// setInterval(function(){
+//  if(elem.style.color == "red"){
+//     elem.style.color="green";
+//  } else {
+//     elem.style.color="red";
+//  }
+// },1000);
+
+//8
+// let elem = document.querySelector('p')
+// setInterval(function(){
+//     let date = new Date()
+//     let hour = date.getHours()
+//     if(+hour < 10){ hour = '0' + hour}
+//     let minute = date.getMinutes()
+//     if(+minute < 10){ minute = '0' + minute}
+//     let seconds = date.getSeconds()
+//     if(+seconds < 10){ seconds = '0' + seconds}
+//     elem.textContent = hour + ':' + minute + ':' + seconds
+// }, 1000)
+
+
+//317
+// let elem = document.querySelector('p')
+// setTimeout(function(){elem.textContent = 'meow'}, 10000)
+
